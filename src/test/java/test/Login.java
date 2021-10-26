@@ -18,7 +18,7 @@ public class Login {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 
-
+		
 		driver.manage().window().maximize();
 		driver.manage().window().fullscreen();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
